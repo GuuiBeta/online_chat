@@ -1,0 +1,124 @@
+/*
+font-family: 'Roboto Mono', monospace;
+*/
+
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background: rgb(34, 34, 34);
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+#sect-content {
+    text-align: center;
+    display: block;
+}
+
+#sect-content h3 {
+    color: rgb(170, 170, 170);
+    text-emphasis: none;
+}
+
+.inputo {
+    margin: 10px;
+}
+
+.intxt {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 5px solid rgb(24, 129, 41);
+    width: 500px;
+    transition: all 0.3s ease 0s;
+    color: white;
+    margin-top: 10px;
+}
+
+.intxt:focus {
+    outline: 0px auto -webkit-focus-ring-color;
+}
+
+.intxt:active {
+    border-bottom: 5px solid rgb(40, 228, 71);
+}
+
+.btn {
+    border: none;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    color: rgb(54, 54, 54);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.btn:hover {
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+
+.btn:active {
+    background-color: rgb(24, 24, 24);
+}
+
+.btn:focus {
+    outline: 0px auto -webkit-focus-ring-color;
+}
+
+
+/*----------MOBILE----------*/
+
+@media (max-width: 600px) {
+    .intxt {
+        width: 200px;
+    }
+}
+
+
+/*----------MOBILE----------*/
+
+
+/*CAIXA DE MENSAGENS*/
+
+#chat {
+    background-color: rgb(46, 46, 46);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 30px;
+    border-radius: 30px;
+    color: white;
+}
+
+.message {
+    text-align: center;
+    display: block;
+    align-items: baseline;
+}
+
+.msg {
+    height: 20px;
+}
+
+.send {
+    height: 50px;
+}
+
+
+/*copyright*/
+
+.guui {
+    text-decoration: none;
+    Color: white;
+}
+
+.guui:visited {
+    color: white;
+}
